@@ -82,9 +82,6 @@ class EncryptionTest{
         new QRCode(encodedQrContents).withSize(qrWidth, qrHeight).writeTo(output)
 
         output.close()
-
-
-
     }
 
 

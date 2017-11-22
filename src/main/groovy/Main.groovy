@@ -1,6 +1,10 @@
 import net.glxn.qrgen.javase.QRCode
 
+import java.util.logging.Logger
+
 class Main {
+
+        static final Logger logger = Logger.getLogger(Main.class.name)
 
         static final String dirPath    = "C:\\Users\\Zach\\Desktop\\Test\\"
         static final String qrCodeName = "qrImage.png"
@@ -15,16 +19,24 @@ class Main {
                                             .build().toString()
 
 
+
     static void main(String[] args){
 
-        File qrFile= new File("${dirPath}${qrCodeName}")
-        OutputStream output = new FileOutputStream(qrFile)
+        logger.info("Starting ${Main.class.name} for QR Generator")
 
-        String encodedQrContents = Encryption.encrypt(qrContents)
+        try {
+            File qrFile = new File("${dirPath}${qrCodeName}")
+            OutputStream output = new FileOutputStream(qrFile)
 
-        new QRCode(encodedQrContents).withSize(qrWidth, qrHeight).writeTo(output)
+            String encodedQrContents = Encryption.encrypt(qrContents)
 
-        output.close()
+            new QRCode(encodedQrContents).withSize(qrWidth, qrHeight).writeTo(output)
+
+            output.close()
+        }
+        catch (Exception exception){
+            logger.severe("QR Generator Failed: ${exception.getMessage()}")
+        }
 
     }
 }
