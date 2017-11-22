@@ -20,7 +20,11 @@ class Main {
         File qrFile= new File("${dirPath}${qrCodeName}")
         OutputStream output = new FileOutputStream(qrFile)
 
-        new QRCode(qrContents).withSize(qrWidth, qrHeight).writeTo(output)
+        String encodedQrContents = Encryption.encrypt(qrContents)
+
+        new QRCode(encodedQrContents).withSize(qrWidth, qrHeight).writeTo(output)
+
+        output.close()
 
     }
 }
