@@ -1,7 +1,9 @@
 import net.glxn.qrgen.javase.QRCode
+import objects.Ticket
 import org.junit.After
 import org.junit.Before
 import org.junit.Test
+import utils.Encryption
 
 class EncryptionTest{
 

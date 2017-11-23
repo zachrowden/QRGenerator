@@ -1,8 +1,10 @@
 import net.glxn.qrgen.javase.QRCode
+import objects.Ticket
+import utils.Encryption
 
 import java.util.logging.Logger
 
-class Main {
+final class Main {
 
         static final Logger logger = Logger.getLogger(Main.class.name)
 

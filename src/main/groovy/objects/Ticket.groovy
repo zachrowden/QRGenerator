@@ -1,4 +1,6 @@
-class Ticket {
+package objects
+
+final class Ticket {
 
     final String id, firstName, lastName
     final Date   orderDate, showDate
@@ -13,7 +15,7 @@ class Ticket {
 
     @Override
     String toString(){
-        new String("ID: \t\t\t${id}\nORDER DATE:  ${orderDate.toString()}\nNAME: \t\t${lastName}, ${firstName}\nSHOW DATE:   ${showDate.toString()}")
+        new String("${id}\n${firstName}\n${lastName}\n${orderDate.toString()}\n${showDate.toString()}")
     }
 
     static class TicketBuilder{

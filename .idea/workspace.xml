@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a770bd7a-5700-41e2-a38d-9f54ac91a311" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/utils/XmlUtil.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/utils/XmlUtilTest.groovy" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/Ticket$TicketBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/Ticket.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/groovy/Encryption.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/utils/Encryption.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/groovy/Ticket.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/objects/Ticket.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/Main.class" afterPath="$PROJECT_DIR$/out/production/classes/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/Encryption.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/Encryption.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/Main.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/Main.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/EncryptionTest.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/EncryptionTest.groovy" />
     </list>
@@ -27,8 +33,8 @@
       <file leaf-file-name="Main.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/Main.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="75" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -37,25 +43,47 @@
         </entry>
       </file>
       <file leaf-file-name="Encryption.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/Encryption.groovy">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/utils/Encryption.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#15#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EncryptionTest.groovy" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/EncryptionTest.groovy">
+      <file leaf-file-name="XmlUtil.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/utils/XmlUtil.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2037">
-              <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+            <state relative-caret-position="41">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#15#36#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XmlUtilTest.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/utils/XmlUtilTest.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+              <folding>
+                <element signature="e#15#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ticket.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/objects/Ticket.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="79" lean-forward="false" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -387,8 +415,13 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/groovy/Encryption.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/EncryptionTest.groovy" />
-        <option value="$PROJECT_DIR$/src/main/groovy/Main.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/XmlUtil.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/utils/Encryption.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/Main.groovy" />
+        <option value="$USER_HOME$/Downloads/apache-groovy-sdk-2.6.0-alpha-1/groovy-2.6.0-alpha-1/lib/groovy-2.6.0-alpha-1.jar!/org/codehaus/groovy/runtime/DefaultGroovyMethods.class" />
+        <option value="$PROJECT_DIR$/src/main/groovy/objects/Ticket.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/utils/XmlUtil.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/utils/XmlUtilTest.groovy" />
       </list>
     </option>
   </component>
@@ -444,14 +477,15 @@
               <item name="qrgenerator" type="b2602c69:ProjectViewProjectNode" />
               <item name="qrgenerator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="qrgenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qrgenerator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrgenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qrgenerator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="qrgenerator" type="b2602c69:ProjectViewProjectNode" />
@@ -459,14 +493,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qrgenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qrgenerator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="GeneratedQrCodes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -485,6 +511,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="utils" />
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -506,7 +533,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EncryptionTest">
+  <component name="RunManager" selected="JUnit.groovy in qrgenerator_test">
     <configuration name="EncryptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="qrgenerator_test" />
@@ -516,26 +543,6 @@
       <option name="MAIN_CLASS_NAME" value="EncryptionTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="EncryptionTest.testForWrongAndCorrectSetKeySize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="qrgenerator_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EncryptionTest" />
-      <option name="METHOD_NAME" value="testForWrongAndCorrectSetKeySize" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -567,14 +574,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="EncryptionTest.testLoggingWorksForWrongSetKeySize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration name="XmlUtilTest.testTicketContentsToXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <module name="qrgenerator_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EncryptionTest" />
-      <option name="METHOD_NAME" value="testLoggingWorksForWrongSetKeySize" />
+      <option name="PACKAGE_NAME" value="utils" />
+      <option name="MAIN_CLASS_NAME" value="utils.XmlUtilTest" />
+      <option name="METHOD_NAME" value="testTicketContentsToXml" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -587,19 +599,30 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="XmlUtilTest.testXmlWriteToFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="qrgenerator_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="utils" />
+      <option name="MAIN_CLASS_NAME" value="utils.XmlUtilTest" />
+      <option name="METHOD_NAME" value="testXmlWriteToFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="qrgenerator_main" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module />
@@ -681,20 +704,41 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="groovy in qrgenerator_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="qrgenerator_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <dir value="$PROJECT_DIR$/src/test/groovy" />
+      <patterns />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.EncryptionTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.EncryptionTest.testGeneratesEncodedAndDecodedQrCode" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.EncryptionTest.testLoggingWorksForWrongSetKeySize" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.EncryptionTest.testForWrongAndCorrectSetKeySize" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.groovy in qrgenerator_test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.XmlUtilTest.testTicketContentsToXml" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.XmlUtilTest.testXmlWriteToFile" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.EncryptionTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.EncryptionTest.testGeneratesEncodedAndDecodedQrCode" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.EncryptionTest.testForWrongAndCorrectSetKeySize" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.EncryptionTest.testLoggingWorksForWrongSetKeySize" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.groovy in qrgenerator_test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.XmlUtilTest.testXmlWriteToFile" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.XmlUtilTest.testTicketContentsToXml" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.EncryptionTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.EncryptionTest.testGeneratesEncodedAndDecodedQrCode" />
       </list>
     </recent_temporary>
   </component>
@@ -712,35 +756,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EncryptionTest - 2017.11.22 at 18h 42m 55s.xml">
-      <configuration name="EncryptionTest" configurationId="JUnit" />
+    <history-entry file="XmlUtilTest_testXmlWriteToFile - 2017.11.22 at 22h 01m 20s.xml">
+      <configuration name="XmlUtilTest.testXmlWriteToFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EncryptionTest - 2017.11.22 at 18h 43m 26s.xml">
-      <configuration name="EncryptionTest" configurationId="JUnit" />
+    <history-entry file="XmlUtilTest_testXmlWriteToFile - 2017.11.22 at 22h 06m 48s.xml">
+      <configuration name="XmlUtilTest.testXmlWriteToFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EncryptionTest - 2017.11.22 at 18h 45m 30s.xml">
-      <configuration name="EncryptionTest" configurationId="JUnit" />
+    <history-entry file="XmlUtilTest_testXmlWriteToFile - 2017.11.22 at 22h 07m 10s.xml">
+      <configuration name="XmlUtilTest.testXmlWriteToFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EncryptionTest - 2017.11.22 at 18h 52m 35s.xml">
-      <configuration name="EncryptionTest" configurationId="JUnit" />
+    <history-entry file="XmlUtilTest_testXmlWriteToFile - 2017.11.22 at 22h 07m 36s.xml">
+      <configuration name="XmlUtilTest.testXmlWriteToFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EncryptionTest_testForWrongAndCorrectSetKeySize - 2017.11.22 at 18h 44m 35s.xml">
-      <configuration name="EncryptionTest.testForWrongAndCorrectSetKeySize" configurationId="JUnit" />
+    <history-entry file="XmlUtilTest_testXmlWriteToFile - 2017.11.22 at 22h 08m 41s.xml">
+      <configuration name="XmlUtilTest.testXmlWriteToFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EncryptionTest_testForWrongAndCorrectSetKeySize - 2017.11.22 at 18h 44m 50s.xml">
-      <configuration name="EncryptionTest.testForWrongAndCorrectSetKeySize" configurationId="JUnit" />
+    <history-entry file="XmlUtilTest_testXmlWriteToFile - 2017.11.22 at 22h 12m 03s.xml">
+      <configuration name="XmlUtilTest.testXmlWriteToFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EncryptionTest_testGeneratesEncodedAndDecodedQrCode - 2017.11.22 at 18h 46m 15s.xml">
-      <configuration name="EncryptionTest.testGeneratesEncodedAndDecodedQrCode" configurationId="JUnit" />
+    <history-entry file="XmlUtilTest_testXmlWriteToFile - 2017.11.22 at 22h 13m 19s.xml">
+      <configuration name="XmlUtilTest.testXmlWriteToFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EncryptionTest_testLoggingWorksForWrongSetKeySize - 2017.11.22 at 18h 35m 22s.xml">
-      <configuration name="EncryptionTest.testLoggingWorksForWrongSetKeySize" configurationId="JUnit" />
+    <history-entry file="groovy_in_qrgenerator_test - 2017.11.22 at 22h 16m 21s.xml">
+      <configuration name="groovy in qrgenerator_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EncryptionTest_testLoggingWorksForWrongSetKeySize - 2017.11.22 at 18h 35m 39s.xml">
-      <configuration name="EncryptionTest.testLoggingWorksForWrongSetKeySize" configurationId="JUnit" />
+    <history-entry file="groovy_in_qrgenerator_test - 2017.11.22 at 22h 17m 38s.xml">
+      <configuration name="groovy in qrgenerator_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EncryptionTest_testLoggingWorksForWrongSetKeySize - 2017.11.22 at 18h 37m 51s.xml">
-      <configuration name="EncryptionTest.testLoggingWorksForWrongSetKeySize" configurationId="JUnit" />
+    <history-entry file="groovy_in_qrgenerator_test - 2017.11.22 at 22h 18m 38s.xml">
+      <configuration name="groovy in qrgenerator_test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -753,9 +797,9 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.119103774" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2889151" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1485849" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3018868" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -880,38 +924,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/Encryption.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/Main.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/XmlUtil.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/Ticket.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -921,7 +937,71 @@
         <state relative-caret-position="2037">
           <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding>
+            <element signature="e#0#35#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/utils/XmlCreator.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-groovy-sdk-2.6.0-alpha-1/groovy-2.6.0-alpha-1/lib/groovy-2.6.0-alpha-1.jar!/org/codehaus/groovy/runtime/DefaultGroovyMethods.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="178" column="54" lean-forward="false" selection-start-line="178" selection-start-column="50" selection-end-line="178" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/Main.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="75" />
+          <folding>
             <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/utils/Encryption.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/utils/XmlUtil.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/objects/Ticket.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="79" lean-forward="false" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/utils/XmlUtilTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#15#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
