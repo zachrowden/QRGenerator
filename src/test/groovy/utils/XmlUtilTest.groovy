@@ -47,7 +47,7 @@ class XmlUtilTest{
     void testXmlWriteToFile(){
         String fileName = "ticketToXml.xml"
 
-        File fileToWrite = new File("C:\\Users\\Zach\\Desktop\\Test\\${fileName}")
+        File fileToWrite = new File("src\\test\\resources\\GeneratedXml\\${fileName}")
         fileToWrite.createNewFile()
 
         String xmlToWrite = XmlUtil.ticketContentsToXml(new Ticket.TicketBuilder()
@@ -61,6 +61,8 @@ class XmlUtilTest{
         boolean isWriteSuccessful = XmlUtil.writeXmlToFile(xmlToWrite, fileToWrite)
 
         assert isWriteSuccessful == true
+
+        fileToWrite.delete()
 
     }
 
