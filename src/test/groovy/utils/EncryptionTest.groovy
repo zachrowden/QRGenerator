@@ -1,3 +1,5 @@
+package utils
+
 import net.glxn.qrgen.javase.QRCode
 import objects.Ticket
 import org.junit.After

@@ -18,13 +18,13 @@ final class XmlUtil {
         Date   showDate  = ticket.showDate
 
         new String(
-                        "<ticket>"                                +"\n"+
-                            "<id>${id}</id>"                      +"\n"+
-                            "<firstname>${firstName}</firstname>" +"\n"+
-                            "<lastname>${lastName}</lastname>"    +"\n"+
-                            "<orderdate>${orderDate}</orderdate>" +"\n"+
-                            "<showdate>${showDate}</showdate>"    +"\n"+
-                        "</ticket>"
+            "<ticket>"                                +"\n"+
+                "<id>${id}</id>"                      +"\n"+
+                "<firstname>${firstName}</firstname>" +"\n"+
+                "<lastname>${lastName}</lastname>"    +"\n"+
+                "<orderdate>${orderDate}</orderdate>" +"\n"+
+                "<showdate>${showDate}</showdate>"    +"\n"+
+            "</ticket>"
         )
     }
 

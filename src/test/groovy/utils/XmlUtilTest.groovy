@@ -63,7 +63,6 @@ class XmlUtilTest{
         assert isWriteSuccessful == true
 
         fileToWrite.delete()
-
     }
 
 }
