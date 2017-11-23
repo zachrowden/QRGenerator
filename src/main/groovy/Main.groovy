@@ -24,6 +24,10 @@ class Main {
 
         logger.info("Starting ${Main.class.name} for QR Generator")
 
+//        execute()
+    }
+
+    static void execute(){
         try {
             File qrFile = new File("${dirPath}${qrCodeName}")
             OutputStream output = new FileOutputStream(qrFile)
@@ -37,6 +41,6 @@ class Main {
         catch (Exception exception){
             logger.severe("QR Generator Failed: ${exception.getMessage()}")
         }
-
     }
+
 }

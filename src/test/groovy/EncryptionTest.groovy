@@ -6,12 +6,13 @@ import org.junit.Test
 class EncryptionTest{
 
     @Before
-    void setUp() {
-
-    }
+    void setUp() {}
 
     @After
     void tearDown() {
+        new File("C:\\Users\\Zach\\Desktop\\Test\\").eachFile{
+            it.delete()
+        }
     }
 
     @Test
@@ -29,6 +30,16 @@ class EncryptionTest{
         String decryptedString = Encryption.decrypt(encodedString)
 
         assert decryptedString == stringToEncode
+
+    }
+
+    @Test
+    void testForWrongAndCorrectSetKeySize(){
+        boolean isWrongSize = Encryption.setSecretKeys("wrong", "size")
+        assert isWrongSize == false
+
+        boolean isRightSize = Encryption.setSecretKeys("1234567890123456", "abcdefghijklmnop")
+        assert isRightSize == true
 
     }
 
@@ -74,6 +85,8 @@ class EncryptionTest{
 
         output.close()
 
+        assert qrFile.exists()
+
         String encodedQrContents = Encryption.encrypt(qrContents)
 
         qrFile= new File("${dirPath}${encodedQrCodeName}")
@@ -82,6 +95,8 @@ class EncryptionTest{
         new QRCode(encodedQrContents).withSize(qrWidth, qrHeight).writeTo(output)
 
         output.close()
+
+        assert qrFile.exists()
     }
 
 
