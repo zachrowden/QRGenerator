@@ -49,7 +49,7 @@ final class XmlUtil {
 
     static final boolean writeXmlToFile(String xml, File file){
         if(file.exists() && xml.isEmpty() == false){
-            file.write(xml)
+            file.write(groovy.xml.XmlUtil.serialize(xml))
         }
         else{
             logger.warning("File exist: ${file.exists()} XML empty: ${xml.empty}")

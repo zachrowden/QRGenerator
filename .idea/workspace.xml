@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a770bd7a-5700-41e2-a38d-9f54ac91a311" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/utils/XmlUtil.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/utils/XmlUtilTest.groovy" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/Ticket$TicketBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/Ticket.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/groovy/Encryption.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/utils/Encryption.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/groovy/Ticket.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/objects/Ticket.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/Main.class" afterPath="$PROJECT_DIR$/out/production/classes/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/Main.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/Main.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/EncryptionTest.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/EncryptionTest.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/utils/XmlUtil.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/utils/XmlUtil.groovy" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -33,7 +25,7 @@
       <file leaf-file-name="Main.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/Main.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="-379">
               <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="75" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -45,7 +37,7 @@
       <file leaf-file-name="Encryption.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/utils/Encryption.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="798">
               <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="e#15#41#0" expanded="true" />
@@ -54,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XmlUtil.groovy" pinned="false" current-in-tab="false">
+      <file leaf-file-name="XmlUtil.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/utils/XmlUtil.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="167">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <element signature="e#15#36#0" expanded="true" />
               </folding>
@@ -66,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XmlUtilTest.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="XmlUtilTest.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/utils/XmlUtilTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="-344">
+              <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
               <folding>
                 <element signature="e#15#36#0" expanded="true" />
               </folding>
@@ -81,8 +73,8 @@
       <file leaf-file-name="Ticket.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/objects/Ticket.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="79" lean-forward="false" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
+            <state relative-caret-position="252">
+              <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -420,8 +412,8 @@
         <option value="$PROJECT_DIR$/src/main/groovy/Main.groovy" />
         <option value="$USER_HOME$/Downloads/apache-groovy-sdk-2.6.0-alpha-1/groovy-2.6.0-alpha-1/lib/groovy-2.6.0-alpha-1.jar!/org/codehaus/groovy/runtime/DefaultGroovyMethods.class" />
         <option value="$PROJECT_DIR$/src/main/groovy/objects/Ticket.groovy" />
-        <option value="$PROJECT_DIR$/src/main/groovy/utils/XmlUtil.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/utils/XmlUtilTest.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/utils/XmlUtil.groovy" />
       </list>
     </option>
   </component>
@@ -479,6 +471,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrgenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qrgenerator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -486,6 +486,21 @@
               <item name="qrgenerator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrgenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qrgenerator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrgenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qrgenerator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qrgenerator" type="b2602c69:ProjectViewProjectNode" />
@@ -735,8 +750,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.groovy in qrgenerator_test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.XmlUtilTest.testXmlWriteToFile" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.XmlUtilTest.testTicketContentsToXml" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.XmlUtilTest.testTicketContentsToXml" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.XmlUtilTest.testXmlWriteToFile" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.EncryptionTest" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.EncryptionTest.testGeneratesEncodedAndDecodedQrCode" />
       </list>
@@ -756,34 +771,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="XmlUtilTest_testXmlWriteToFile - 2017.11.22 at 22h 01m 20s.xml">
-      <configuration name="XmlUtilTest.testXmlWriteToFile" configurationId="JUnit" />
+    <history-entry file="XmlUtilTest_testTicketContentsToXml - 2017.11.22 at 22h 25m 30s.xml">
+      <configuration name="XmlUtilTest.testTicketContentsToXml" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XmlUtilTest_testXmlWriteToFile - 2017.11.22 at 22h 06m 48s.xml">
-      <configuration name="XmlUtilTest.testXmlWriteToFile" configurationId="JUnit" />
+    <history-entry file="XmlUtilTest_testTicketContentsToXml - 2017.11.22 at 22h 26m 45s.xml">
+      <configuration name="XmlUtilTest.testTicketContentsToXml" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XmlUtilTest_testXmlWriteToFile - 2017.11.22 at 22h 07m 10s.xml">
-      <configuration name="XmlUtilTest.testXmlWriteToFile" configurationId="JUnit" />
+    <history-entry file="XmlUtilTest_testTicketContentsToXml - 2017.11.22 at 22h 27m 39s.xml">
+      <configuration name="XmlUtilTest.testTicketContentsToXml" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XmlUtilTest_testXmlWriteToFile - 2017.11.22 at 22h 07m 36s.xml">
-      <configuration name="XmlUtilTest.testXmlWriteToFile" configurationId="JUnit" />
+    <history-entry file="XmlUtilTest_testTicketContentsToXml - 2017.11.22 at 22h 28m 27s.xml">
+      <configuration name="XmlUtilTest.testTicketContentsToXml" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XmlUtilTest_testXmlWriteToFile - 2017.11.22 at 22h 08m 41s.xml">
-      <configuration name="XmlUtilTest.testXmlWriteToFile" configurationId="JUnit" />
+    <history-entry file="XmlUtilTest_testTicketContentsToXml - 2017.11.22 at 22h 28m 46s.xml">
+      <configuration name="XmlUtilTest.testTicketContentsToXml" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XmlUtilTest_testXmlWriteToFile - 2017.11.22 at 22h 12m 03s.xml">
-      <configuration name="XmlUtilTest.testXmlWriteToFile" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="XmlUtilTest_testXmlWriteToFile - 2017.11.22 at 22h 13m 19s.xml">
-      <configuration name="XmlUtilTest.testXmlWriteToFile" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="groovy_in_qrgenerator_test - 2017.11.22 at 22h 16m 21s.xml">
+    <history-entry file="groovy_in_qrgenerator_test - 2017.11.22 at 22h 18m 54s.xml">
       <configuration name="groovy in qrgenerator_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="groovy_in_qrgenerator_test - 2017.11.22 at 22h 17m 38s.xml">
+    <history-entry file="groovy_in_qrgenerator_test - 2017.11.22 at 22h 23m 27s.xml">
       <configuration name="groovy in qrgenerator_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="groovy_in_qrgenerator_test - 2017.11.22 at 22h 18m 38s.xml">
+    <history-entry file="groovy_in_qrgenerator_test - 2017.11.22 at 22h 24m 45s.xml">
+      <configuration name="groovy in qrgenerator_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="groovy_in_qrgenerator_test - 2017.11.22 at 22h 28m 54s.xml">
+      <configuration name="groovy in qrgenerator_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="groovy_in_qrgenerator_test - 2017.11.22 at 22h 29m 39s.xml">
       <configuration name="groovy in qrgenerator_test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -797,9 +812,9 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2889151" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2889151" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3018868" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1639151" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -821,7 +836,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -932,16 +947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/EncryptionTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2037">
-          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/utils/XmlCreator.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -958,9 +963,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/EncryptionTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/Main.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="-379">
           <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="75" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -970,7 +983,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/utils/Encryption.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="798">
           <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="e#15#41#0" expanded="true" />
@@ -978,28 +991,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/utils/XmlUtil.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/objects/Ticket.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="79" lean-forward="false" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
+        <state relative-caret-position="252">
+          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/utils/XmlUtilTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="-344">
+          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <element signature="e#15#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/utils/XmlUtil.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <element signature="e#15#36#0" expanded="true" />
           </folding>
